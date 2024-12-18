@@ -153,5 +153,7 @@ function keyPressed() {
 function mousePressed() {
   if (!song.isPlaying()) {
     song.play();
+  }else{
+    song.stop();
   }
 }
